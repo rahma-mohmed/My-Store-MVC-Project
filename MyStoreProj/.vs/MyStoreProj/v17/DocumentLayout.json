@@ -1,0 +1,161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|d:\\just try c#\\mvc\\mystore\\mystoreproj\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|solutionrelative:areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AD35E1B-6E01-4FB5-8008-4550DBB1AD4E}|..\\mystore.Entities\\mystore.Entities.csproj|d:\\just try c#\\mvc\\mystore\\mystore.entities\\models\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|d:\\just try c#\\mvc\\mystore\\mystoreproj\\areas\\customer\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|solutionrelative:areas\\customer\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|d:\\just try c#\\mvc\\mystore\\mystoreproj\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|solutionrelative:areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|d:\\just try c#\\mvc\\mystore\\mystoreproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|d:\\just try c#\\mvc\\mystore\\mystoreproj\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|solutionrelative:areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|d:\\just try c#\\mvc\\mystore\\mystoreproj\\wwwroot\\css\\summary.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|solutionrelative:wwwroot\\css\\summary.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F13797B-87EF-4904-B01D-0E6B6CF60239}|..\\mystore.DataAccess\\mystore.DataAccess.csproj|d:\\just try c#\\mvc\\mystore\\mystore.dataaccess\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./UMyStore/True/SqlTable/dbo.ShoppingCarts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderHeader.cs",
+              "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\mystore.Entities\\Models\\OrderHeader.cs",
+              "RelativeDocumentMoniker": "..\\mystore.Entities\\Models\\OrderHeader.cs",
+              "ToolTip": "D:\\just try c#\\MVC\\Mystore\\mystore.Entities\\Models\\OrderHeader.cs",
+              "RelativeToolTip": "..\\mystore.Entities\\Models\\OrderHeader.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T15:58:22.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Areas\\Customer\\Controllers\\CartController.cs",
+              "ViewState": "AQIAALYAAAAAAAAAAADwv8oAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T05:41:29.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderConfirmation.cshtml",
+              "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
+              "ToolTip": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
+              "RelativeToolTip": "Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T01:17:41.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAABgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T00:38:53.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Summary.cshtml",
+              "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "ToolTip": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "RelativeToolTip": "Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T23:09:35.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T16:30:01.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Summary.css",
+              "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\Summary.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Summary.css",
+              "ToolTip": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\Summary.css",
+              "RelativeToolTip": "wwwroot\\css\\Summary.css",
+              "ViewState": "AQIAACIBAAAAAAAAAAAAAC8BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-03T23:11:06.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\mystore.DataAccess\\Implementation\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\mystore.DataAccess\\Implementation\\UnitOfWork.cs",
+              "ToolTip": "D:\\just try c#\\MVC\\Mystore\\mystore.DataAccess\\Implementation\\UnitOfWork.cs",
+              "RelativeToolTip": "..\\mystore.DataAccess\\Implementation\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T23:30:20.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbo.ShoppingCarts [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/./UMyStore/True/SqlTable/dbo.ShoppingCarts.sql",
+              "ToolTip": "dbo.ShoppingCarts [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-03T16:49:06.873Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
