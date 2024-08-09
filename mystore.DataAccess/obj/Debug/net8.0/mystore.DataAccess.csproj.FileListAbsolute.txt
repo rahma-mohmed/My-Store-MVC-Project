@@ -317,3 +317,5 @@ D:\just try c#\MVC\Mystore\mystore.DataAccess\bin\Debug\net8.0\refs\System.Xml.X
 D:\just try c#\MVC\Mystore\mystore.DataAccess\bin\Debug\net8.0\refs\System.Xml.XPath.dll
 D:\just try c#\MVC\Mystore\mystore.DataAccess\bin\Debug\net8.0\refs\System.Xml.XPath.XDocument.dll
 D:\just try c#\MVC\Mystore\mystore.DataAccess\bin\Debug\net8.0\refs\WindowsBase.dll
+D:\just try c#\MVC\Mystore\mystore.DataAccess\bin\Debug\net8.0\mystore.Utilities.dll
+D:\just try c#\MVC\Mystore\mystore.DataAccess\bin\Debug\net8.0\mystore.Utilities.pdb

@@ -11,9 +11,9 @@ namespace mystore.Entities.Models
 	{
 		public int Id { get; set; }	
 
-		public int OrderId { get; set; }
+		public int OrderHeaderId { get; set; }
 		[ValidateNever]
-		public OrderHeader OrdereHader { get; set; }
+		public OrderHeader OrdereHeader { get; set; }
 
 		public int ProductId { get; set; }
 		[ValidateNever]

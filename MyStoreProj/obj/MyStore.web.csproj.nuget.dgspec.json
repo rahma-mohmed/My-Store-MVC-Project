@@ -31,6 +31,9 @@
             "projectReferences": {
               "D:\\just try c#\\MVC\\Mystore\\mystore.Entities\\mystore.Entities.csproj": {
                 "projectPath": "D:\\just try c#\\MVC\\Mystore\\mystore.Entities\\mystore.Entities.csproj"
+              },
+              "D:\\just try c#\\MVC\\Mystore\\mystore.Utilities\\mystore.Utilities.csproj": {
+                "projectPath": "D:\\just try c#\\MVC\\Mystore\\mystore.Utilities\\mystore.Utilities.csproj"
               }
             }
           }

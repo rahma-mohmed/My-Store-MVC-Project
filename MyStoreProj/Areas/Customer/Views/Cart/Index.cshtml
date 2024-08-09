@@ -61,6 +61,8 @@
 																<a asp-action="Remove" asp-route-cartid="@item.Id" class="btn btn-danger">X</a>
 															</div>
 														</div>
+														<br />
+														<br />
 													</div>
 												</div>
 											</div>
@@ -80,7 +82,7 @@
 								<br />
 								<br />
 
-								<button type="button" class="btn btn-primary btn-lg btn-block">Summary</button>
+								<a class="btn btn-primary btn-lg btn-block" asp-action="Summary" asp-controller="Cart">Summary</a>
 								<br />
 								<br />
 							</div>

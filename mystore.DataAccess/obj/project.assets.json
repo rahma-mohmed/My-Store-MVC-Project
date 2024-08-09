@@ -3296,6 +3296,19 @@
         "runtime": {
           "bin/placeholder/mystore.Entities.dll": {}
         }
+      },
+      "mystore.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "8.0.7"
+        },
+        "compile": {
+          "bin/placeholder/mystore.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/mystore.Utilities.dll": {}
+        }
       }
     }
   },
@@ -8962,6 +8975,11 @@
       "type": "project",
       "path": "../mystore.Entities/mystore.Entities.csproj",
       "msbuildProject": "../mystore.Entities/mystore.Entities.csproj"
+    },
+    "mystore.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../mystore.Utilities/mystore.Utilities.csproj",
+      "msbuildProject": "../mystore.Utilities/mystore.Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8972,7 +8990,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.7",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.3",
-      "mystore.Entities >= 1.0.0"
+      "mystore.Entities >= 1.0.0",
+      "mystore.Utilities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -9005,6 +9024,9 @@
           "projectReferences": {
             "D:\\just try c#\\MVC\\Mystore\\mystore.Entities\\mystore.Entities.csproj": {
               "projectPath": "D:\\just try c#\\MVC\\Mystore\\mystore.Entities\\mystore.Entities.csproj"
+            },
+            "D:\\just try c#\\MVC\\Mystore\\mystore.Utilities\\mystore.Utilities.csproj": {
+              "projectPath": "D:\\just try c#\\MVC\\Mystore\\mystore.Utilities\\mystore.Utilities.csproj"
             }
           }
         }

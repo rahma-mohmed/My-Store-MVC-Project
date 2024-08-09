@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bZITiUxy971DdxCgFnuwqVXOvOfDuPx801TMmRYMI6c=",
+  "Hash": "z6QEmxcBw09LYrYxoqEyc/vjpG2sU0e7Pn2urty0MfQ=",
   "Source": "MyStore.web",
   "BasePath": "_content/MyStore.web",
   "Mode": "Default",
@@ -3473,6 +3473,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\demo.js"
+    },
+    {
+      "Identity": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\js\\order.js",
+      "SourceId": "MyStore.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\",
+      "BasePath": "_content/MyStore.web",
+      "RelativePath": "js/order.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\order.js"
     },
     {
       "Identity": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\js\\pages\\dashboard.js",

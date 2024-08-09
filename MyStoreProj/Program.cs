@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using mystore.Utilities;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Stripe;
+using Microsoft.Data.SqlClient;
 
 namespace MyStore.web
 {
@@ -30,8 +31,8 @@ namespace MyStore.web
                 .AddEntityFrameworkStores<mystore.DataAccess.ApplicationDbContext>();
 
             builder.Services.AddSingleton<IEmailSender,EmailSender>();
-
-            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            builder.Services.AddScoped<mystore.DataAccess.DBIntilalizer.IDBIntilalizer,mystore.DataAccess.DBIntilalizer.DBIntilalizer>();
+			builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
             var app = builder.Build();
 
@@ -64,6 +65,13 @@ namespace MyStore.web
 
 
             app.Run();
+
+            /*void SeedDB()
+            {
+                using (var s = app.Services.CreateScope() {
+
+                }
+            }*/
         }
     }
 }

@@ -264,10 +264,7 @@ namespace mystore.DataAccess.Migrations
                     b.Property<int>("Count")
                         .HasColumnType("int");
 
-                    b.Property<int>("OrderId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("OrdereHaderId")
+                    b.Property<int>("OrderHeaderId")
                         .HasColumnType("int");
 
                     b.Property<decimal>("Price")
@@ -278,7 +275,7 @@ namespace mystore.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("OrdereHaderId");
+                    b.HasIndex("OrderHeaderId");
 
                     b.HasIndex("ProductId");
 
@@ -294,7 +291,6 @@ namespace mystore.DataAccess.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Address")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ApplicationUserId")
@@ -305,14 +301,15 @@ namespace mystore.DataAccess.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("City")
-                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("OrderDate")
+                    b.Property<DateTime?>("OrderDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("OrderStatus")
@@ -328,13 +325,12 @@ namespace mystore.DataAccess.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SessionId")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("ShippingDate")
+                    b.Property<DateTime?>("ShippingDate")
                         .HasColumnType("datetime2");
 
                     b.Property<decimal>("TotalPrice")
@@ -482,9 +478,9 @@ namespace mystore.DataAccess.Migrations
 
             modelBuilder.Entity("mystore.Entities.Models.OrderDetail", b =>
                 {
-                    b.HasOne("mystore.Entities.Models.OrderHeader", "OrdereHader")
+                    b.HasOne("mystore.Entities.Models.OrderHeader", "OrdereHeader")
                         .WithMany()
-                        .HasForeignKey("OrdereHaderId")
+                        .HasForeignKey("OrderHeaderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -494,7 +490,7 @@ namespace mystore.DataAccess.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("OrdereHader");
+                    b.Navigation("OrdereHeader");
 
                     b.Navigation("Product");
                 });

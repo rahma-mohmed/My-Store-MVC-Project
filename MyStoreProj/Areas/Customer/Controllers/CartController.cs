@@ -16,6 +16,7 @@ namespace MyStore.web.Areas.Customer.Controllers
     public class CartController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
+
         public ShoppingCartVM ShoppingCartVM { get; set; }
         public int totalCarts {  get; set; }
 
@@ -70,7 +71,7 @@ namespace MyStore.web.Areas.Customer.Controllers
 		public IActionResult Remove(int cartid)
 		{
 			var shoppingcart = _unitOfWork.ShoppingCartRepository.GetFirstorDefault(x => x.Id == cartid);
-			_unitOfWork.ShoppingCartRepository.Remove(shoppingcart );
+			_unitOfWork.ShoppingCartRepository.Remove(shoppingcart);
 			_unitOfWork.Complete();
 			return RedirectToAction("Index");
 		}
@@ -83,7 +84,7 @@ namespace MyStore.web.Areas.Customer.Controllers
 
             ShoppingCartVM = new ShoppingCartVM()
             {
-                CartsList = _unitOfWork.ShoppingCartRepository.GetAll(u => u.ApplicationUserId == claim.Value),
+                CartsList = _unitOfWork.ShoppingCartRepository.GetAll(u => u.ApplicationUserId == claim.Value , Includeword: "Product"),
 				orderHeader = new()
             };
             ShoppingCartVM.orderHeader.ApplicationUser = _unitOfWork.ApplicationUserRepository.GetFirstorDefault(x => x.Id == claim.Value);
@@ -92,63 +93,77 @@ namespace MyStore.web.Areas.Customer.Controllers
             ShoppingCartVM.orderHeader.Address = ShoppingCartVM.orderHeader.ApplicationUser.Address;
 			ShoppingCartVM.orderHeader.City = ShoppingCartVM.orderHeader.ApplicationUser.City;
 			ShoppingCartVM.orderHeader.PhoneNumber = ShoppingCartVM.orderHeader.ApplicationUser.PhoneNumber;
+            ShoppingCartVM.orderHeader.Email = ShoppingCartVM.orderHeader.ApplicationUser.Email;
 
-            foreach(var item in ShoppingCartVM.CartsList)
+            foreach (var item in ShoppingCartVM.CartsList)
             {
                 ShoppingCartVM.orderHeader.TotalPrice += (item.count * item.Product.Price);
             }
 
-
-			return View(ShoppingCartVM);
+            return View(ShoppingCartVM);
 		}
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         [ActionName("Summary")]
-		public IActionResult SummaryOnPost(ShoppingCartVM shoppingCart)
+		public IActionResult SummaryOnPost(ShoppingCartVM ShoppingCartVM)
         {
 			var claimIdentity = (ClaimsIdentity)User.Identity;
 			var claim = claimIdentity.FindFirst(ClaimTypes.NameIdentifier);
 
-            shoppingCart.CartsList = _unitOfWork.ShoppingCartRepository.GetAll(u => u.ApplicationUserId == claim.Value);
+            ShoppingCartVM.CartsList = _unitOfWork.ShoppingCartRepository.GetAll(u => u.ApplicationUserId == claim.Value , Includeword: "Product");
+			var u = _unitOfWork.ApplicationUserRepository.GetFirstorDefault(x => x.Id == claim.Value);
 
-            shoppingCart.orderHeader.OrderStatus = SD.Pending;
-            shoppingCart.orderHeader.PaymentStatus = SD.Pending;
-            shoppingCart.orderHeader.OrderDate = DateTime.Now;
-            shoppingCart.orderHeader.ApplicationUserId = claim.Value;
+			ShoppingCartVM.orderHeader = new OrderHeader();
+            
+            ShoppingCartVM.orderHeader.OrderStatus = SD.Pending;
+            ShoppingCartVM.orderHeader.PaymentStatus = SD.Pending;
+            ShoppingCartVM.orderHeader.OrderDate = DateTime.Now;
+            ShoppingCartVM.orderHeader.ApplicationUserId = claim.Value;
 
-            foreach (var item in shoppingCart.CartsList) { 
-                shoppingCart.orderHeader.TotalPrice += (item.count * item.Product.Price);
+			ShoppingCartVM.orderHeader.Name = u.Name;
+			ShoppingCartVM.orderHeader.Address = u.Address;
+			ShoppingCartVM.orderHeader.City = u.City;
+			ShoppingCartVM.orderHeader.PhoneNumber = u.PhoneNumber;
+			ShoppingCartVM.orderHeader.Email = u.Email;
+
+
+			foreach (var item in ShoppingCartVM.CartsList) {
+                ShoppingCartVM.orderHeader.TotalPrice += (item.count * item.Product.Price);
 			}
 
-            _unitOfWork.OrderHeaderRepository.Add(shoppingCart.orderHeader);
+            _unitOfWork.OrderHeaderRepository.Add(ShoppingCartVM.orderHeader);
             _unitOfWork.Complete();
 
-            foreach(var item in shoppingCart.CartsList)
+
+           
+            foreach (var item in ShoppingCartVM.CartsList)
             {
-                OrderDetail detail = new OrderDetail()
+                OrderDetail detail = new OrderDetail
                 {
                     ProductId = item.ProductId,
-                    OrderId = shoppingCart.orderHeader.Id,
+                    OrderHeaderId = ShoppingCartVM.orderHeader.Id, 
                     Price = item.Product.Price,
                     Count = item.count
                 };
-				_unitOfWork.OrderDetailsRepository.Add(detail);
-				_unitOfWork.Complete();
-			}
 
-			var Domain = "https://localhost:44350/";
+                _unitOfWork.OrderDetailsRepository.Add(detail);
+                _unitOfWork.Complete();
+            }
+            
+
+            var Domain = "https://localhost:44350/";
 
 
 			var options = new SessionCreateOptions
 			{
 		        LineItems = new List<SessionLineItemOptions>(),
 				Mode = "payment",
-				SuccessUrl = Domain + $"customer/cart/OrderConfirmation?id={shoppingCart.orderHeader.Id}",
-				CancelUrl = Domain + $"customer/cart",
+				SuccessUrl = Domain + $"customer/cart/OrderConfirmation?id={ShoppingCartVM.orderHeader.Id}",
+				CancelUrl = Domain + $"customer/cart/index",
 			};
 
-            foreach(var item in shoppingCart.CartsList)
+            foreach(var item in ShoppingCartVM.CartsList)
             {
                 var sessionlineoptions = new SessionLineItemOptions
                 {
@@ -169,17 +184,11 @@ namespace MyStore.web.Areas.Customer.Controllers
 			var service = new SessionService();
 			Session session = service.Create(options);
 
-            shoppingCart.orderHeader.SessionId = session.Id;
-            shoppingCart.orderHeader.PaymentIntentId = session.PaymentIntentId;
+            ShoppingCartVM.orderHeader.SessionId = session.Id;
             _unitOfWork.Complete();
 
 			Response.Headers.Add("Location", session.Url);
 			return new StatusCodeResult(303);
-
-
-			/*_unitOfWork.ShoppingCartRepository.RemoveRange(shoppingCart.CartsList);
-            _unitOfWork.Complete();
-            return RedirectToAction("Index" , "Home");*/
 		}
 
         public IActionResult OrderConfirmation(int id)
@@ -193,14 +202,15 @@ namespace MyStore.web.Areas.Customer.Controllers
             if(session.PaymentStatus.ToLower() == "paid")
             {
                 _unitOfWork.OrderHeaderRepository.UpdateOrderStatus(id , SD.Approve , SD.Approve);
-                _unitOfWork.Complete();
+				orderheader.PaymentIntentId = session.PaymentIntentId;
+				_unitOfWork.Complete();
             }
 
             List<ShoppingCart> shoppingcarts = _unitOfWork.ShoppingCartRepository.GetAll(u => u.ApplicationUserId == orderheader.ApplicationUserId).ToList();
 
             _unitOfWork.ShoppingCartRepository.RemoveRange(shoppingcarts);
             _unitOfWork.Complete();
-            return View("Index" , "Home");
+            return View(id);
         }
 
 	}

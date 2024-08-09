@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\mystore.Entities\mystore.Entities.csproj" />
+    <ProjectReference Include="..\mystore.Utilities\mystore.Utilities.csproj" />
   </ItemGroup>
 
   <ItemGroup>

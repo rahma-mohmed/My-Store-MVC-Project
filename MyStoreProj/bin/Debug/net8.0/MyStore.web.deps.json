@@ -2696,7 +2696,8 @@
           "Microsoft.EntityFrameworkCore": "8.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.3",
-          "mystore.Entities": "1.0.0"
+          "mystore.Entities": "1.0.0",
+          "mystore.Utilities": "1.0.0"
         },
         "runtime": {
           "mystore.DataAccess.dll": {}

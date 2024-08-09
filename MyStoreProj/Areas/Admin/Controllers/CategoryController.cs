@@ -2,10 +2,12 @@
 using mystore.Entities.Models;
 using mystore.DataAccess;
 using mystore.Entities.Repositories;
+using Microsoft.AspNetCore.Authorization;
 
 namespace mystore.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class CategoryController : Controller
     {
         //private readonly ApplicationDbContext _context;

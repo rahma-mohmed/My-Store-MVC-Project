@@ -43,6 +43,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "8.0.7",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.3",
           "mystore.Entities": "1.0.0",
+          "mystore.Utilities": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "8.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "8.0.0.0",
           "Microsoft.AspNetCore.Authentication.BearerToken": "8.0.0.0",
@@ -2680,6 +2681,17 @@
         },
         "compile": {
           "mystore.Entities.dll": {}
+        }
+      },
+      "mystore.Utilities/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "8.0.7"
+        },
+        "runtime": {
+          "mystore.Utilities.dll": {}
+        },
+        "compile": {
+          "mystore.Utilities.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/8.0.0.0": {
@@ -5820,6 +5832,11 @@
       "hashPath": "system.windows.extensions.7.0.0.nupkg.sha512"
     },
     "mystore.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "mystore.Utilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

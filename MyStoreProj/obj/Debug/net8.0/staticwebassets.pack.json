@@ -497,6 +497,10 @@
       "PackagePath": "staticwebassets\\js\\demo.js"
     },
     {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\js\\order.js",
+      "PackagePath": "staticwebassets\\js\\order.js"
+    },
+    {
       "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\js\\pages\\dashboard.js",
       "PackagePath": "staticwebassets\\js\\pages\\dashboard.js"
     },
