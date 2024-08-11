@@ -6,6 +6,16 @@
     ViewData["Title"] = "Register";
 }
 
+<style>
+    .Imgsrc{
+        background-size: 100% 100%;
+    }
+
+    .loginImg{
+        height :auto;
+        max-width : 100%;
+    }
+</style>
 
 <section class="py-5">
     <div class="container px-4 px-lg-5 mt-5">
@@ -78,7 +88,8 @@
         </div>
         <div class="col-md-6 col-md-offset-2">
             <section>
-                    <img src="~/img/Sign up.gif" style="margin-left: 100px;">
+                <div class="Imgsrc">
+                    <img class="loginImg" src="~/img/Sign up.gif" style="margin-left: 100px;">
 @*                 <h3>Use another service to register.</h3>
                 <hr />
                 @{
@@ -105,7 +116,9 @@
                     </form>
                 }
             } *@
+            </div>
             </section>
+            </div>
         </div>
     </div>
 </div>

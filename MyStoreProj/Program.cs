@@ -8,6 +8,7 @@ using mystore.Utilities;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Stripe;
 using Microsoft.Data.SqlClient;
+using mystore.DataAccess.DBIntilalizer;
 
 namespace MyStore.web
 {
@@ -30,10 +31,13 @@ namespace MyStore.web
                 .AddDefaultTokenProviders().AddDefaultUI()
                 .AddEntityFrameworkStores<mystore.DataAccess.ApplicationDbContext>();
 
+
             builder.Services.AddSingleton<IEmailSender,EmailSender>();
             builder.Services.AddScoped<mystore.DataAccess.DBIntilalizer.IDBIntilalizer,mystore.DataAccess.DBIntilalizer.DBIntilalizer>();
 			builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
+            builder.Services.AddSession();
+            builder.Services.AddDistributedMemoryCache();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -51,8 +55,12 @@ namespace MyStore.web
 
             StripeConfiguration.ApiKey = builder.Configuration.GetSection("stripe:SecretKey").Get<string>();
 
-			app.UseAuthentication();
+            SeedDB();
+
+            app.UseAuthentication();
             app.UseAuthorization();
+
+            app.UseSession();
             app.MapRazorPages();  
             
             //app.MapControllerRoute(
@@ -66,12 +74,14 @@ namespace MyStore.web
 
             app.Run();
 
-            /*void SeedDB()
+            void SeedDB()
             {
-                using (var s = app.Services.CreateScope() {
-
+                using (var s = app.Services.CreateScope())
+                {
+                    var dbIntializer = s.ServiceProvider.GetRequiredService<IDBIntilalizer>();
+                    dbIntializer.Intailze();
                 }
-            }*/
+            }
         }
     }
 }

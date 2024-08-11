@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "z6QEmxcBw09LYrYxoqEyc/vjpG2sU0e7Pn2urty0MfQ=",
+  "Hash": "S2yjiCLhw94r3Wt6kY+aB2as4yZQRkEtX/9DI8+Z4kY=",
   "Source": "MyStore.web",
   "BasePath": "_content/MyStore.web",
   "Mode": "Default",
@@ -2544,12 +2544,12 @@
       "OriginalItemSpec": "wwwroot\\fontawesome-free\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\Images\\Products\\47696da5-719d-485b-bcb6-6a2a9a9bac67.jpg",
+      "Identity": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\Images\\Products\\67cae0ba-d8f9-48a8-a591-425cc6e09925.jpg",
       "SourceId": "MyStore.web",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\",
       "BasePath": "_content/MyStore.web",
-      "RelativePath": "Images/Products/47696da5-719d-485b-bcb6-6a2a9a9bac67.jpg",
+      "RelativePath": "Images/Products/67cae0ba-d8f9-48a8-a591-425cc6e09925.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2560,7 +2560,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Products\\47696da5-719d-485b-bcb6-6a2a9a9bac67.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\Products\\67cae0ba-d8f9-48a8-a591-425cc6e09925.jpg"
     },
     {
       "Identity": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\Images\\Products\\78439092-6cf2-4534-b921-55b6ff5c552d.jpg",
@@ -2884,6 +2884,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\icons.png"
+    },
+    {
+      "Identity": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\images.png",
+      "SourceId": "MyStore.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\",
+      "BasePath": "_content/MyStore.web",
+      "RelativePath": "img/images.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\images.png"
+    },
+    {
+      "Identity": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\istockphoto-1396245389-612x612.jpg",
+      "SourceId": "MyStore.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\",
+      "BasePath": "_content/MyStore.web",
+      "RelativePath": "img/istockphoto-1396245389-612x612.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\istockphoto-1396245389-612x612.jpg"
     },
     {
       "Identity": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\photo1.png",

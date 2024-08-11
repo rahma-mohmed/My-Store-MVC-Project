@@ -570,3 +570,6 @@ D:\just try c#\MVC\Mystore\MyStoreProj\bin\Debug\net8.0\Microsoft.Extensions.Fil
 D:\just try c#\MVC\Mystore\MyStoreProj\bin\Debug\net8.0\mystore.Utilities.dll
 D:\just try c#\MVC\Mystore\MyStoreProj\bin\Debug\net8.0\mystore.Utilities.pdb
 D:\just try c#\MVC\Mystore\MyStoreProj\bin\Debug\net8.0\Stripe.net.dll
+D:\just try c#\MVC\Mystore\MyStoreProj\bin\Debug\net8.0\X.PagedList.dll
+D:\just try c#\MVC\Mystore\MyStoreProj\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
+D:\just try c#\MVC\Mystore\MyStoreProj\bin\Debug\net8.0\X.Web.PagedList.dll

@@ -47,6 +47,8 @@ namespace MyStore.web.Areas.Customer.Controllers
             var shoppingcart = _unitOfWork.ShoppingCartRepository.GetFirstorDefault(x => x.Id == cartid);
             _unitOfWork.ShoppingCartRepository.IncreaseCount(shoppingcart , 1);
             _unitOfWork.Complete();
+            var c = _unitOfWork.ShoppingCartRepository.GetAll(x => x.ApplicationUserId == shoppingcart.ApplicationUserId).ToList().Count() + 1;
+            HttpContext.Session.SetInt32(SD.SessionKey, c);
             return RedirectToAction("Index");
         }
 
@@ -57,8 +59,10 @@ namespace MyStore.web.Areas.Customer.Controllers
             if(shoppingcart.count <= 1)
             {
                 _unitOfWork.ShoppingCartRepository.Remove(shoppingcart);
-				_unitOfWork.Complete();
-				return RedirectToAction("Index" , "Home");
+                var c = _unitOfWork.ShoppingCartRepository.GetAll(x => x.ApplicationUserId == shoppingcart.ApplicationUserId).ToList().Count() - 1;
+                HttpContext.Session.SetInt32(SD.SessionKey, c);
+                _unitOfWork.Complete();
+                return RedirectToAction("Index" , "Home");
 			}
             else
             {
@@ -72,7 +76,7 @@ namespace MyStore.web.Areas.Customer.Controllers
 		{
 			var shoppingcart = _unitOfWork.ShoppingCartRepository.GetFirstorDefault(x => x.Id == cartid);
 			_unitOfWork.ShoppingCartRepository.Remove(shoppingcart);
-			_unitOfWork.Complete();
+            _unitOfWork.Complete();
 			return RedirectToAction("Index");
 		}
 

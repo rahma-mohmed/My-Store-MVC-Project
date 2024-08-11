@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|d:\\just try c#\\mvc\\mystore\\mystoreproj\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|solutionrelative:areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|d:\\just try c#\\mvc\\mystore\\mystoreproj\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|solutionrelative:areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|d:\\just try c#\\mvc\\mystore\\mystoreproj\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|solutionrelative:areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|d:\\just try c#\\mvc\\mystore\\mystoreproj\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|solutionrelative:areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|d:\\just try c#\\mvc\\mystore\\mystoreproj\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|solutionrelative:areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|d:\\just try c#\\mvc\\mystore\\mystoreproj\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|solutionrelative:areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|d:\\just try c#\\mvc\\mystore\\mystoreproj\\views\\shared\\_dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|solutionrelative:views\\shared\\_dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|d:\\just try c#\\mvc\\mystore\\mystoreproj\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|solutionrelative:areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{454F7AC0-2184-4A4E-AA39-6FCCDDF242B7}|MyStore.web.csproj|d:\\just try c#\\mvc\\mystore\\mystoreproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -60,19 +76,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Admin\\Views\\Product\\Edit.cshtml*",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Edit.cshtml*",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEIAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-09T12:59:07.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAD8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-09T12:59:01.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-09T12:52:36.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ToolTip": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-09T12:48:24.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Admin\\Views\\Users\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Users\\Index.cshtml",
               "ToolTip": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Admin\\Views\\Users\\Index.cshtml",
               "RelativeToolTip": "Areas\\Admin\\Views\\Users\\Index.cshtml",
-              "ViewState": "AQIAABAAAAAAAAAAAAApwBoAAAAMAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAApwCEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-09T12:35:02.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "_dashboard.cshtml",
               "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Views\\Shared\\_dashboard.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_dashboard.cshtml",
@@ -80,25 +148,24 @@
               "RelativeToolTip": "Views\\Shared\\_dashboard.cshtml",
               "ViewState": "AQIAANUAAAAAAAAAAAAAAOsAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-09T12:32:01.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-09T12:32:01.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Admin\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Index.cshtml",
               "ToolTip": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Admin\\Views\\Category\\Index.cshtml",
               "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-09T12:25:56.361Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -106,12 +173,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAswCEAAACJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T01:05:25.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T01:05:25.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -123,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "dbo.OrderHeaders [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/./UMyStore/True/SqlTable/dbo.OrderHeaders.sql",
               "ToolTip": "dbo.OrderHeaders [Data]",
@@ -132,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Admin\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\OrderController.cs",
@@ -144,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Admin\\Views\\Order\\Details.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Order\\Details.cshtml",
@@ -156,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\Areas\\Customer\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Areas\\Customer\\Controllers\\CartController.cs",
@@ -168,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "OrderHeader.cs",
               "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\mystore.Entities\\Models\\OrderHeader.cs",
               "RelativeDocumentMoniker": "..\\mystore.Entities\\Models\\OrderHeader.cs",
@@ -180,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "order.js",
               "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\js\\order.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\order.js",
@@ -192,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "OrderVM.cs",
               "DocumentMoniker": "D:\\just try c#\\MVC\\Mystore\\mystore.Entities\\ViewModels\\OrderVM.cs",
               "RelativeDocumentMoniker": "..\\mystore.Entities\\ViewModels\\OrderVM.cs",

@@ -3,6 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using mystore.Entities.Models;
 using mystore.Entities.Repositories;
 using System.Security.Claims;
+using X.PagedList.Extensions;
+using mystore.Utilities;
+using Microsoft.AspNetCore.Http;
 
 namespace mystore.Web.Areas.Customer.Controllers
 {
@@ -15,9 +18,12 @@ namespace mystore.Web.Areas.Customer.Controllers
         {
             _unitOfWork = unitOfWork;
         }
-        public IActionResult Index()
+        public IActionResult Index(int ? page)
         {
-            var products = _unitOfWork.ProductRepository.GetAll();
+            int pageNumber = page ?? 1;
+            int pageSize = 10;
+
+            var products = _unitOfWork.ProductRepository.GetAll().ToPagedList(pageNumber , pageSize);
             return View(products);
         }
 
@@ -57,6 +63,8 @@ namespace mystore.Web.Areas.Customer.Controllers
             {
                 _unitOfWork.ShoppingCartRepository.Add(shc);
                 _unitOfWork.Complete();
+                HttpContext.Session.SetInt32(SD.SessionKey
+                    ,_unitOfWork.ShoppingCartRepository.GetAll(x => x.ApplicationUserId == claim.Value).ToList().Count());
             }
             else
             {

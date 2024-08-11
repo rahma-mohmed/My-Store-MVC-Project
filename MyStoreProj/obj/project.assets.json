@@ -3300,6 +3300,45 @@
           }
         }
       },
+      "X.PagedList/10.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/X.PagedList.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/X.PagedList.dll": {}
+        }
+      },
+      "X.PagedList.Mvc.Core/10.1.2": {
+        "type": "package",
+        "dependencies": {
+          "X.Web.PagedList": "10.1.2"
+        },
+        "compile": {
+          "lib/net8.0/X.PagedList.Mvc.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/X.PagedList.Mvc.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "X.Web.PagedList/10.1.2": {
+        "type": "package",
+        "dependencies": {
+          "X.PagedList": "10.0.3"
+        },
+        "compile": {
+          "lib/net8.0/X.Web.PagedList.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/X.Web.PagedList.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "mystore.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -9031,6 +9070,55 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "X.PagedList/10.0.3": {
+      "sha512": "HIYIXYlqIWrhedP1ext7bG1Bj3LS8X7zgNrZlrPdcQBbXCjns+QXudVbadzZq9tLrfQJmVowJirwCM1pONyeBg==",
+      "type": "package",
+      "path": "x.pagedlist/10.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net6.0/X.PagedList.dll",
+        "lib/net8.0/X.PagedList.dll",
+        "lib/netstandard2.0/X.PagedList.dll",
+        "lib/netstandard2.1/X.PagedList.dll",
+        "x.pagedlist.10.0.3.nupkg.sha512",
+        "x.pagedlist.nuspec"
+      ]
+    },
+    "X.PagedList.Mvc.Core/10.1.2": {
+      "sha512": "znbnP3LqonxwM1Rue5wqVvu2e6S9e2g/jToWgrXCD6AGgGCQl93FIBdXxY2uGJ8by8dQX4exVKm3ydpEmWRS5w==",
+      "type": "package",
+      "path": "x.pagedlist.mvc.core/10.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net6.0/X.PagedList.Mvc.Core.dll",
+        "lib/net8.0/X.PagedList.Mvc.Core.dll",
+        "x-web.png",
+        "x.pagedlist.mvc.core.10.1.2.nupkg.sha512",
+        "x.pagedlist.mvc.core.nuspec"
+      ]
+    },
+    "X.Web.PagedList/10.1.2": {
+      "sha512": "sAo7tJmBWs8dT3PaZYI8bzBCDx8hctZAA6CGqMovNOEL+rpNxXIdED468GV7Gs2nNCdhOb5bpw4ZxmAIBuBFHg==",
+      "type": "package",
+      "path": "x.web.pagedlist/10.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net6.0/X.Web.PagedList.dll",
+        "lib/net8.0/X.Web.PagedList.dll",
+        "x-web.png",
+        "x.web.pagedlist.10.1.2.nupkg.sha512",
+        "x.web.pagedlist.nuspec"
+      ]
+    },
     "mystore.DataAccess/1.0.0": {
       "type": "project",
       "path": "../mystore.DataAccess/mystore.DataAccess.csproj",
@@ -9057,6 +9145,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.7",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.3",
       "Stripe.net >= 45.6.0",
+      "X.PagedList.Mvc.Core >= 10.1.2",
       "mystore.DataAccess >= 1.0.0",
       "mystore.Entities >= 1.0.0",
       "mystore.Utilities >= 1.0.0"
@@ -9150,6 +9239,10 @@
           "Stripe.net": {
             "target": "Package",
             "version": "[45.6.0, )"
+          },
+          "X.PagedList.Mvc.Core": {
+            "target": "Package",
+            "version": "[10.1.2, )"
           }
         },
         "imports": [

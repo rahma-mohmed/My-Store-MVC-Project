@@ -17,8 +17,8 @@
       "PackagePath": "staticwebassets\\Customer\\js\\scripts.js"
     },
     {
-      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\Images\\Products\\47696da5-719d-485b-bcb6-6a2a9a9bac67.jpg",
-      "PackagePath": "staticwebassets\\Images\\Products\\47696da5-719d-485b-bcb6-6a2a9a9bac67.jpg"
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\Images\\Products\\67cae0ba-d8f9-48a8-a591-425cc6e09925.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\67cae0ba-d8f9-48a8-a591-425cc6e09925.jpg"
     },
     {
       "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\Images\\Products\\78439092-6cf2-4534-b921-55b6ff5c552d.jpg",
@@ -375,6 +375,14 @@
     {
       "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\icons.png",
       "PackagePath": "staticwebassets\\img\\icons.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\images.png",
+      "PackagePath": "staticwebassets\\img\\images.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\istockphoto-1396245389-612x612.jpg",
+      "PackagePath": "staticwebassets\\img\\istockphoto-1396245389-612x612.jpg"
     },
     {
       "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\photo1.png",

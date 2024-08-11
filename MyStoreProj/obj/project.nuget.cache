@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Uaok3fOglv8=",
+  "dgSpecHash": "UCrlI6b8YEA=",
   "success": true,
   "projectFilePath": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\MyStore.web.csproj",
   "expectedPackageFiles": [
@@ -193,7 +193,10 @@
     "C:\\Users\\3ML4Ever\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
     "C:\\Users\\3ML4Ever\\.nuget\\packages\\system.threading.tasks.dataflow\\7.0.0\\system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
     "C:\\Users\\3ML4Ever\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\3ML4Ever\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+    "C:\\Users\\3ML4Ever\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\3ML4Ever\\.nuget\\packages\\x.pagedlist\\10.0.3\\x.pagedlist.10.0.3.nupkg.sha512",
+    "C:\\Users\\3ML4Ever\\.nuget\\packages\\x.pagedlist.mvc.core\\10.1.2\\x.pagedlist.mvc.core.10.1.2.nupkg.sha512",
+    "C:\\Users\\3ML4Ever\\.nuget\\packages\\x.web.pagedlist\\10.1.2\\x.web.pagedlist.10.1.2.nupkg.sha512"
   ],
   "logs": []
 }
