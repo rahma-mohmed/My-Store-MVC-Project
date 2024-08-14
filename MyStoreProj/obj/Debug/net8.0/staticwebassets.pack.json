@@ -309,6 +309,14 @@
       "PackagePath": "staticwebassets\\img\\AdminLTELogo.png"
     },
     {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\Ecommerce web page.gif",
+      "PackagePath": "staticwebassets\\img\\Ecommerce web page.gif"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\Forgot password.gif",
+      "PackagePath": "staticwebassets\\img\\Forgot password.gif"
+    },
+    {
       "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\Sign in.gif",
       "PackagePath": "staticwebassets\\img\\Sign in.gif"
     },

@@ -44,5 +44,19 @@ namespace MyStore.web.Areas.Admin.Controllers
             _context.SaveChanges();
             return RedirectToAction("Index" , "Users" , new {area = "Admin"});
         }
+
+        public IActionResult Delete(string? id)
+        {
+            var User = _context.ApplicationUsers.FirstOrDefault(x => x.Id == id);
+            if (User == null)
+            {
+                NotFound();
+            }
+
+            _context.ApplicationUsers.Remove(User);
+            _context.SaveChanges();
+            TempData["Delete"] = "User Has Deleted Successfully";
+            return RedirectToAction("Index");
+        }
     }
 }

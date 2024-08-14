@@ -1,39 +1,22 @@
-﻿@model IEnumerable<Product>
-@using X.PagedList;
-@using X.Web.PagedList
+﻿ @model List<IGrouping<Category, Product>>
 
-<section class="py-5">
-    <div class="container px-4 px-lg-5 mt-5">
-        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-            @foreach(var product in Model)
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <!-- Category Links Section -->
+        <div class="col-12 col-md-4 d-flex flex-column align-items-center text-center">
+            @foreach (var c in Model)
             {
-                <div class="col mb-5">
-                    <div class="card h-100">
-                        <!-- Product image-->
-                        <a href="\Customer\Home\Details\@product.Id"><img class="card-img-top" src="~/@product.Img" alt="..." width="450" height="300" /></a>
-                        <!-- Product details-->
-                        <div class="card-body p-4">
-                            <div class="text-center">
-                                <!-- Product name-->
-                                <h5 class="fw-bolder">@product.Name</h5>
-                                <!-- Product price-->
-                                $@product.Price
-                            </div>
-                        </div>
-                        <!-- Product actions-->
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="\Customer\Home\Details\@product.Id">View Details</a></div>
-                        </div>
-                    </div>
-                </div>
+                <h5 class="mb-4">
+                    <a href="@Url.Action("GetProd", "Home", new { name = c.Key.Name })" class="text-decoration-none">
+                        @c.Key.Name
+                    </a>
+                </h5>
             }
         </div>
 
-        <div class="container px-4 px-lg-5 mt-5">
-            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-            @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page = page }))
-
-            </div>
+        <!-- Image Section -->
+        <div class="col-12 col-md-8 text-center">
+            <img src="~/img/Ecommerce web page.gif" alt="Ecommerce" class="img-fluid" style="max-width: 100%; height: auto;" />
         </div>
     </div>
-</section>
+</div>

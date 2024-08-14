@@ -2,8 +2,6 @@
 @using mystore.Utilities;
 @inject IHttpContextAccessor htppcontextaccessor;
 
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -70,8 +68,9 @@
         </div>
     </nav>
     <!-- Header-->
-    <header class="bg-dark py-5">
-        <div class="container px-4 px-lg-5 my-5">
+
+    <header class="py-5" style="background-color:darkblue;">
+        <div class="container px-4 px-lg-5 my-5" >
             <div class="text-center text-white">
                 <h1 class="display-4 fw-bolder">Welcome To Our Store</h1>
                 <p class="lead fw-normal text-white-50 mb-0">All you need in one place</p>
@@ -81,7 +80,7 @@
     <!-- Section-->
     @RenderBody()
     <!-- Footer-->
-    <footer class="py-5 bg-dark">
+    <footer class="py-5" style="background-color:darkblue">
         <div class="container"><p class="m-0 text-center text-white">Copyright &Rahma 2024</p></div>
     </footer>
     <!-- Bootstrap core JS-->
@@ -90,4 +89,3 @@
     <script src="~/Customer/js/scripts.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
-</html>

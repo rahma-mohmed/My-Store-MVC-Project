@@ -18,12 +18,21 @@ namespace mystore.Web.Areas.Customer.Controllers
         {
             _unitOfWork = unitOfWork;
         }
-        public IActionResult Index(int ? page)
+        public IActionResult Index()
+        {
+            var categories = _unitOfWork.CategoryRepository.GetAll().ToList();
+            var productByCategory = _unitOfWork.ProductRepository.GetAll(null, Includeword: "Category").AsEnumerable().GroupBy(x => x.Category).ToList();
+
+            return View(productByCategory);
+        }
+
+   
+        public IActionResult GetProd(string name, int? page)
         {
             int pageNumber = page ?? 1;
             int pageSize = 10;
-
-            var products = _unitOfWork.ProductRepository.GetAll().ToPagedList(pageNumber , pageSize);
+            ViewBag.category = name;
+            var products = _unitOfWork.ProductRepository.GetAll(x => x.Category.Name == name).ToPagedList(pageNumber, pageSize);
             return View(products);
         }
 

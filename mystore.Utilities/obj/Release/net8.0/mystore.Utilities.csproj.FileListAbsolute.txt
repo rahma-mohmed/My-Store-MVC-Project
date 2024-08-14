@@ -1,0 +1,13 @@
+D:\just try c#\MVC\Mystore\mystore.Utilities\bin\Release\net8.0\mystore.Utilities.deps.json
+D:\just try c#\MVC\Mystore\mystore.Utilities\bin\Release\net8.0\mystore.Utilities.dll
+D:\just try c#\MVC\Mystore\mystore.Utilities\bin\Release\net8.0\mystore.Utilities.pdb
+D:\just try c#\MVC\Mystore\mystore.Utilities\obj\Release\net8.0\mystore.Utilities.csproj.AssemblyReference.cache
+D:\just try c#\MVC\Mystore\mystore.Utilities\obj\Release\net8.0\mystore.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\just try c#\MVC\Mystore\mystore.Utilities\obj\Release\net8.0\mystore.Utilities.AssemblyInfoInputs.cache
+D:\just try c#\MVC\Mystore\mystore.Utilities\obj\Release\net8.0\mystore.Utilities.AssemblyInfo.cs
+D:\just try c#\MVC\Mystore\mystore.Utilities\obj\Release\net8.0\mystore.Utilities.csproj.CoreCompileInputs.cache
+D:\just try c#\MVC\Mystore\mystore.Utilities\obj\Release\net8.0\mystore.Utilities.sourcelink.json
+D:\just try c#\MVC\Mystore\mystore.Utilities\obj\Release\net8.0\mystore.Utilities.dll
+D:\just try c#\MVC\Mystore\mystore.Utilities\obj\Release\net8.0\refint\mystore.Utilities.dll
+D:\just try c#\MVC\Mystore\mystore.Utilities\obj\Release\net8.0\mystore.Utilities.pdb
+D:\just try c#\MVC\Mystore\mystore.Utilities\obj\Release\net8.0\ref\mystore.Utilities.dll

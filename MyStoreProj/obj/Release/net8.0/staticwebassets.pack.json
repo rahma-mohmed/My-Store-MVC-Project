@@ -1,0 +1,953 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\MyStore.web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MyStore.web.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\Customer\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\Customer\\assets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\Customer\\css\\styles.css",
+      "PackagePath": "staticwebassets\\Customer\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\Customer\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\Customer\\js\\scripts.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\Images\\Products\\67cae0ba-d8f9-48a8-a591-425cc6e09925.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\67cae0ba-d8f9-48a8-a591-425cc6e09925.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\Images\\Products\\78439092-6cf2-4534-b921-55b6ff5c552d.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\78439092-6cf2-4534-b921-55b6ff5c552d.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\ShoppingCart\\index.html",
+      "PackagePath": "staticwebassets\\ShoppingCart\\index.html"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\ShoppingCart\\style.css",
+      "PackagePath": "staticwebassets\\ShoppingCart\\style.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\Summary.css",
+      "PackagePath": "staticwebassets\\css\\Summary.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\adminlte.css",
+      "PackagePath": "staticwebassets\\css\\adminlte.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\adminlte.css.map",
+      "PackagePath": "staticwebassets\\css\\adminlte.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\adminlte.min.css",
+      "PackagePath": "staticwebassets\\css\\adminlte.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\adminlte.min.css.map",
+      "PackagePath": "staticwebassets\\css\\adminlte.min.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.components.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.components.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.components.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.components.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.components.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.components.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.components.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.components.min.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.core.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.core.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.core.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.core.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.core.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.core.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.core.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.core.min.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.extra-components.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.extra-components.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.extra-components.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.extra-components.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.extra-components.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.extra-components.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.extra-components.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.extra-components.min.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.light.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.light.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.light.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.light.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.light.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.light.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.light.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.light.min.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.pages.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.pages.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.pages.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.pages.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.pages.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.pages.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.pages.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.pages.min.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.plugins.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.plugins.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.plugins.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.plugins.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.plugins.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.plugins.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\alt\\adminlte.plugins.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.plugins.min.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\css\\all.css",
+      "PackagePath": "staticwebassets\\fontawesome-free\\css\\all.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\fontawesome-free\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\css\\brands.css",
+      "PackagePath": "staticwebassets\\fontawesome-free\\css\\brands.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\fontawesome-free\\css\\brands.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\fontawesome-free\\css\\fontawesome.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\fontawesome-free\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\css\\regular.css",
+      "PackagePath": "staticwebassets\\fontawesome-free\\css\\regular.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\fontawesome-free\\css\\regular.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\css\\solid.css",
+      "PackagePath": "staticwebassets\\fontawesome-free\\css\\solid.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\fontawesome-free\\css\\solid.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\fontawesome-free\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\fontawesome-free\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\fontawesome-free\\css\\v4-shims.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\fontawesome-free\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\fontawesome-free\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\fontawesome-free\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fontawesome-free\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\fontawesome-free\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\fontawesome-free\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\fontawesome-free\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\fontawesome-free\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fontawesome-free\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\fontawesome-free\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fontawesome-free\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\fontawesome-free\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\fontawesome-free\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fontawesome-free\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\fontawesome-free\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\fontawesome-free\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fontawesome-free\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\AdminLTELogo.png",
+      "PackagePath": "staticwebassets\\img\\AdminLTELogo.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\Ecommerce web page.gif",
+      "PackagePath": "staticwebassets\\img\\Ecommerce web page.gif"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\Forgot password.gif",
+      "PackagePath": "staticwebassets\\img\\Forgot password.gif"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\Sign in.gif",
+      "PackagePath": "staticwebassets\\img\\Sign in.gif"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\Sign up.gif",
+      "PackagePath": "staticwebassets\\img\\Sign up.gif"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\avatar.png",
+      "PackagePath": "staticwebassets\\img\\avatar.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\avatar2.png",
+      "PackagePath": "staticwebassets\\img\\avatar2.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\avatar3.png",
+      "PackagePath": "staticwebassets\\img\\avatar3.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\avatar4.png",
+      "PackagePath": "staticwebassets\\img\\avatar4.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\avatar5.png",
+      "PackagePath": "staticwebassets\\img\\avatar5.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\boxed-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\boxed-bg.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\boxed-bg.png",
+      "PackagePath": "staticwebassets\\img\\boxed-bg.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\credit\\american-express.png",
+      "PackagePath": "staticwebassets\\img\\credit\\american-express.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\credit\\cirrus.png",
+      "PackagePath": "staticwebassets\\img\\credit\\cirrus.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\credit\\mastercard.png",
+      "PackagePath": "staticwebassets\\img\\credit\\mastercard.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\credit\\paypal.png",
+      "PackagePath": "staticwebassets\\img\\credit\\paypal.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\credit\\paypal2.png",
+      "PackagePath": "staticwebassets\\img\\credit\\paypal2.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\credit\\visa.png",
+      "PackagePath": "staticwebassets\\img\\credit\\visa.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\default-150x150.png",
+      "PackagePath": "staticwebassets\\img\\default-150x150.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\icons.png",
+      "PackagePath": "staticwebassets\\img\\icons.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\images.png",
+      "PackagePath": "staticwebassets\\img\\images.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\istockphoto-1396245389-612x612.jpg",
+      "PackagePath": "staticwebassets\\img\\istockphoto-1396245389-612x612.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\photo1.png",
+      "PackagePath": "staticwebassets\\img\\photo1.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\photo2.png",
+      "PackagePath": "staticwebassets\\img\\photo2.png"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\photo3.jpg",
+      "PackagePath": "staticwebassets\\img\\photo3.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\photo4.jpg",
+      "PackagePath": "staticwebassets\\img\\photo4.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\prod-1.jpg",
+      "PackagePath": "staticwebassets\\img\\prod-1.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\prod-2.jpg",
+      "PackagePath": "staticwebassets\\img\\prod-2.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\prod-3.jpg",
+      "PackagePath": "staticwebassets\\img\\prod-3.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\prod-4.jpg",
+      "PackagePath": "staticwebassets\\img\\prod-4.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\prod-5.jpg",
+      "PackagePath": "staticwebassets\\img\\prod-5.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\user1-128x128.jpg",
+      "PackagePath": "staticwebassets\\img\\user1-128x128.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\img\\user2-160x160.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\user3-128x128.jpg",
+      "PackagePath": "staticwebassets\\img\\user3-128x128.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\user4-128x128.jpg",
+      "PackagePath": "staticwebassets\\img\\user4-128x128.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\user5-128x128.jpg",
+      "PackagePath": "staticwebassets\\img\\user5-128x128.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\user6-128x128.jpg",
+      "PackagePath": "staticwebassets\\img\\user6-128x128.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\user7-128x128.jpg",
+      "PackagePath": "staticwebassets\\img\\user7-128x128.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\img\\user8-128x128.jpg",
+      "PackagePath": "staticwebassets\\img\\user8-128x128.jpg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\js\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\js\\.eslintrc.json"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\js\\Products1.js",
+      "PackagePath": "staticwebassets\\js\\Products1.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\js\\adminlte.js",
+      "PackagePath": "staticwebassets\\js\\adminlte.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\js\\adminlte.js.map",
+      "PackagePath": "staticwebassets\\js\\adminlte.js.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\js\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\js\\adminlte.min.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\js\\adminlte.min.js.map",
+      "PackagePath": "staticwebassets\\js\\adminlte.min.js.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\js\\demo.js",
+      "PackagePath": "staticwebassets\\js\\demo.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\js\\order.js",
+      "PackagePath": "staticwebassets\\js\\order.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\js\\pages\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\js\\pages\\dashboard2.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard2.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\js\\pages\\dashboard3.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard3.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\css\\all.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\all.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\css\\brands.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\brands.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\brands.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\fontawesome.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\css\\regular.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\regular.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\regular.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\css\\solid.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\solid.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\solid.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\v4-shims.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "D:\\just try c#\\MVC\\Mystore\\MyStoreProj\\wwwroot\\plugins\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.MyStore.web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.MyStore.web.props",
+      "PackagePath": "build\\MyStore.web.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MyStore.web.props",
+      "PackagePath": "buildMultiTargeting\\MyStore.web.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.MyStore.web.props",
+      "PackagePath": "buildTransitive\\MyStore.web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
