@@ -34,6 +34,7 @@ Follow these steps to set up the project locally:
 ## 📜 Usage
 - Users can browse products, add them to the cart, and place orders.  
 - Admins can manage products, categories, orders, and users through the admin panel.
+- Admin dashboard userName = "Admin@mystore.com", password = "142Rahma@"
 
 ## 📩 Contact  
 For any inquiries or issues, feel free to contact me:  
