@@ -36,7 +36,6 @@ Follow these steps to set up the project locally:
 - Admins can manage products, categories, orders, and users through the admin panel.
 
 ## 📩 Contact  
-```yaml
 For any inquiries or issues, feel free to contact me:  
 📧 rahmamohmed1422003@gmail.com  
 🔗 LinkedIn: [Rahma Mohmed Aboshaheen](https://www.linkedin.com/in/rahma-aboshaheen-059868289/)  
