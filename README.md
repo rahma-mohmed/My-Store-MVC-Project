@@ -12,7 +12,6 @@ R.Store is a modern **e-commerce platform** built using **ASP.NET Core MVC**. It
 - 🔐 **User Authentication** – Register/Login with role-based access control.  
 - 📦 **Order Management** – Users can place, track, and manage their orders.  
 - 📊 **Admin Dashboard** – Manage products, categories, orders, and users.  
-- 🌍 **Multi-Language Support** – Arabic and English switcher for better accessibility.  
 - 🎨 **Responsive UI** – Modern design with **Bootstrap** for a smooth experience.  
 
 ## 🛠 Technologies Used  
